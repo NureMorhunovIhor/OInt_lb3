@@ -18,10 +18,6 @@ from tensorflow.keras.callbacks import EarlyStopping
 from deap import base, creator, tools, algorithms
 
 
-# ============================================================
-# 1. НАЛАШТУВАННЯ
-# ============================================================
-
 warnings.filterwarnings("ignore")
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 
